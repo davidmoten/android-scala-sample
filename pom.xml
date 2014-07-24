@@ -106,6 +106,7 @@
 					<deleteConflictingFiles>true</deleteConflictingFiles>
 					<undeployBeforeDeploy>true</undeployBeforeDeploy>
 					<proguard>
+                        <config>src/proguard/proguard.cfg</config>
   						<skip>false</skip>
 					</proguard>
 				</configuration>
